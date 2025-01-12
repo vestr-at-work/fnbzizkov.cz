@@ -1,0 +1,83 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+}
+
+body {
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    padding: 0;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+header ul li {
+    margin: 0 10px;
+}
+
+/* Main Content */
+
+main {
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    padding: 0 20vw;
+}
+
+main h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+main p {
+    margin-bottom: 20px;
+}
