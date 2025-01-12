@@ -77,6 +77,9 @@ select {
 }
 
 /* Theme  */
+p {
+  margin-bottom: 0.5em;
+}
 a span {
   text-decoration: underline;
   color: #515151;
