@@ -160,8 +160,8 @@ h1 {
   text-transform: uppercase;
   line-height: 1;
 }
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   h1 {
     font-size: 1.75em;
   }
-}
+} */
