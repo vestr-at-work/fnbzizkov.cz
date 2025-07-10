@@ -55,6 +55,20 @@ select {
   font: inherit;
 }
 
+.absolute-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+#lang-button {
+  float: right;
+  color: white;
+  background-color: black;
+  padding: 8px;
+  border-radius: 20px;
+}
+
 /* Theme  */
 p {
   margin-bottom: 0.5em;
@@ -150,6 +164,16 @@ footer {
     ul {
       flex-direction: column;
     }
+  }
+  .absolute-container {
+    margin-left: 91%;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .absolute-container {
+    right: 25px;
+    top: 14em;
   }
 }
 /* Main Content */
