@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("font/Inter-Black.woff2") format("woff2");
+}
+
 /* Reset CSS */
 * {
   margin: 0;
@@ -13,6 +21,9 @@
 }
 
 .title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
   display: grid;
 }
 
