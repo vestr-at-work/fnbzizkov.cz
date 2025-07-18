@@ -1,30 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food not Bombs Žižkov</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🥕</text></svg>">
+    <title>Food Not Bombs Žižkov</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="absolute-container">
+        <div id="lang-button"><a href="en/index.html"><strong>EN</strong></a></div>
+    </div>
     <header>
         <div class="container">
             <div class="flex flex-row items-center gap-1">
                 <div class="flex-shrink-0">
                     <img src="img/fnbz_logo.jpg" alt="Food not Bombs Žižkov" width="100px" />
                 </div>
-                <h1><span style="font-size: 60px;">Food</span> <br />not Bombs<br /> <span class="bold">Žižkov</span>
+                <h1 class="title">
+                    <span class="title-line-1">Food</span>
+                    <span class="title-line-2">Not Bombs</span>
+                    <span class="title-line-3">Žižkov</span>
                 </h1>
             </div>
             <ul>
-                <li><a href="https://instagram.com/fnb_zizkov" target="_blank"><img src="img/insta.svg" alt="insta" />
-                        <span>@fnb_zizkov</span></a></li>
-                <li><a href="https://www.facebook.com/fnbzizkov" target="_blank"><img src="img/fb.svg" alt="fb" />
-                        <span>@fnbzizkov</span></a></li>
-                <li><a href="mailto:fnbzizkov@riseup.net"><img src="img/email.svg" alt="insta" />
-                        <span>fnbzizkov@riseup.net</span></a>
+                <li>
+                    <a href="https://instagram.com/fnb_zizkov" target="_blank">
+                        <img src="img/insta.svg" alt="insta" />
+                        <span>@fnb_zizkov</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/fnbzizkov" target="_blank">
+                        <img src="img/fb.svg" alt="fb" />
+                        <span>@fnbzizkov</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:fnbzizkov@riseup.net">
+                        <img src="img/email.svg" alt="insta" />
+                        <span>fnbzizkov@riseup.net</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://ib.fio.cz/ib/transparent?a=2702105607" target="_blank">
+                        <img src="img/piggy-bank.svg" alt="piggy bank" />
+                        <span>Transparentní účet</span>
+                    </a>
                 </li>
             </ul>
         </div>
@@ -33,7 +57,13 @@
     <main class="container">
         <div class="row">
             <section class="cell">
-                <h2>Teplé jídlo</h2>
+                <h2>Teplé jídlo zdarma</h2>
+                <p>
+                    Vaříme a sdílíme každý týden teplé jídlo zdarma pro <strong>všechny bez rozdílu!</strong>
+                </p>
+                <p>
+                    <strong>Zastihneš nás:</strong>
+                </p>
                 <ul>
                     <li>říjen - červen</li>
                     <li>na <strong>Náměstí Winstona Churchilla</strong></li>
@@ -41,21 +71,36 @@
                 </ul>
             </section>
             <section class="cell">
-                <h2>Jídlo také sdílí...</h2>
+                <h2>Další FNB v Praze</h2>
+                <p>
+                    Jídlo také sdílí v Praze kolektivy
+                    <a href="https://www.facebook.com/fnbpraha" target="_blank"><span>FNB Praha</span></a> a
+                    <a href="https://www.instagram.com/fnbprahapatek/" target="_blank"><span>FNB Praha Pátek</span></a>.
+                </p>
                 <ul>
-                    <li>na <strong>Nádraží Holešovice</strong></li>
-                    <li>každou <strong>sobotu od 16:00</strong></li>
-                    <li>každý <strong>pátek od 17:30</strong></li>
-                    <li>kolektivy:
-                        <ul style="margin-left: 10px">
-                            <li>FNB Praha</li>
-                            <li>FNB Praha Pátek</li>
-                        </ul>
-                    </li>
+                    <li>Na <strong>Nádraží Holešovice</strong></li>
+                    <li>každou <strong>sobotu od 16:00</strong> FNB Praha</li>
+                    <li>každý <strong>pátek od 17:30</strong> FNB Praha Pátek</li>
                 </ul>
             </section>
         </div>
         <div class="row gap-1">
+            <section class="cell">
+                <h2>O Food Not Bombs Žižkov</h2>
+                <p>
+                    Jsme autonomní skupina lidí, kteří sdílí stejné hodnoty.
+                    Sdružujeme se na základě dobrovolné asociace.
+                </p>
+                <p>
+                    Jsme politické uskupení. Kolektiv uvádí do praxe hodnoty rovnosti
+                    a vzájemné pomoci, ať už jde o samotné vaření a rozdávání jídla
+                    všem bez rozdílu, protesty, nebo třeba kulturní akce.
+                </p>
+                <p>
+                    Jsme nehierarchičtí. Nikdo nevelí, rozhodujeme se
+                    demokraticky a konsenzuálně.
+                </p>
+            </section>
             <section class="cell">
                 <h2>Food Not Bombs ve světě</h2>
                 <p>
@@ -78,22 +123,6 @@
                     dostaly k potřebným, hnijí na skládkách.
                 </p>
             </section>
-            <section class="cell">
-                <h2>O Food Not Bombs Žižkov</h2>
-                <p>
-                    Jsme autonomní skupina lidí, kteří sdílí stejné hodnoty.
-                    Sdružujeme se na základě dobrovolné asociace.
-                </p>
-                <p>
-                    Jsme politické uskupení. Kolektiv uvádí do praxe hodnoty rovnosti
-                    a vzájemné pomoci, ať už jde o samotné vaření a rozdávání jídla
-                    všem bez rozdílu, protesty, nebo třeba kulturní akce.
-                </p>
-                <p>
-                    Jsme nehierarchičtí. Nikdo nevelí, rozhodujeme se
-                    demokraticky a konsenzuálně.
-                </p>
-            </section>
         </div>
         <div class="row">
             <section>
@@ -103,22 +132,39 @@
                     Uvítáme i jakoukoli podporu, ať už hmotnou, či finanční.</p>
             </section>
         </div>
+        <div class="row">
+            <section>
+                <h3>Solidarita místo charity!</h3>
+            </section>
+        </div>
     </main>
 
     <footer>
         <div class="container">
             <ul>
-                <li><a href="https://ib.fio.cz/ib/transparent?a=2702105607" target="_blank"><span>Transparentní
-                            účet</span></a>
+                <li>
+                    <a href="https://instagram.com/fnb_zizkov" target="_blank">
+                        <img src="img/insta.svg" alt="insta" />
+                        <span>@fnb_zizkov</span>
+                    </a>
                 </li>
-                <li><a href="https://instagram.com/fnb_zizkov" target="_blank"><img src="img/insta.svg" alt="insta" />
-                        <span>@fnb_zizkov</span></a></li>
-                <li><a href="https://www.facebook.com/fnbzizkov" target="_blank"><img src="img/fb.svg" alt="fb" />
-                        <span>@fnbzizkov</span></a></li>
-
-
-                <li><a href="mailto:fnbzizkov@riseup.net"><img src="img/email.svg" alt="email" />
-                        <span>fnbzizkov@riseup.net</span></a>
+                <li>
+                    <a href="https://www.facebook.com/fnbzizkov" target="_blank">
+                        <img src="img/fb.svg" alt="fb" />
+                        <span>@fnbzizkov</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:fnbzizkov@riseup.net">
+                        <img src="img/email.svg" alt="email" />
+                        <span>fnbzizkov@riseup.net</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://ib.fio.cz/ib/transparent?a=2702105607" target="_blank">
+                        <img src="img/piggy-bank.svg" alt="piggy bank" />
+                        <span>Transparentní účet</span>
+                    </a>
                 </li>
             </ul>
         </div>
