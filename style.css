@@ -138,6 +138,16 @@ h2 {
     flex-shrink: 0;
 }
 
+.list {
+    list-style-type: disc;
+    padding-top: 0.5rem;
+
+    li {
+        margin-left: 1rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
 /* Container */
 .container {
     width: 1200px;
