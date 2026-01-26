@@ -148,6 +148,21 @@ h2 {
     }
 }
 
+.print-only {
+    display: none !important;
+}
+
+
+@media print {
+    .no-print {
+        display: none !important;
+    }
+
+    .print-only {
+        display: block !important;
+    }
+}
+
 /* Container */
 .container {
     width: 1200px;
@@ -165,6 +180,14 @@ h2 {
             min-width: 250px;
             flex: 1;
         }
+
+        page-break-inside: avoid;
+    }
+}
+
+@media print {
+    .container .row {
+        margin-bottom: 1em;
     }
 }
 
@@ -201,6 +224,12 @@ footer {
     }
     .absolute-container {
         margin-left: 91%;
+    }
+}
+
+@media print {
+    header, footer {
+        padding: 0;
     }
 }
 
