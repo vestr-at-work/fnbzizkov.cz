@@ -55,6 +55,10 @@ img {
 
 ul {
     list-style: none;
+
+    li.end-item {
+        margin-bottom: 0.5em;
+    }
 }
 
 a {
